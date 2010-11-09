@@ -1,0 +1,14 @@
+#summary Giới thiệu sơ lược về dreamwear.
+
+= Giới thiệu =
+
+Dreamweaver là một phần mềm được tạo ra bởi hãng Macromedia, hãng này hiện nay đã được hãng Adobe mua lại. Nếu bạn đã từng dùng notepad để thiết kế web thì tôi khuyên bạn nên thử dùng Dreamweaver (DW) đi, bạn sẽ “kết” nó ngay. Còn nếu bạn mới làm quen với việc thiết kế web, tôi vẫn khuyên bạn nên dùng Notepad, hoặc Notepad++ chứ không nên dùng “con dao mổ trâu” DW này. DW giúp bạn thiết kế web nhanh hơn, nhưng cũng giống như mọi công cụ WYSIWYG (What you see is what you get = nhìn ra sao ra vậy), nó sẽ “giúp” bạn mài mòn trí nhớ của mình. Nếu bạn muốn đào sâu, hiểu bản chất và nhớ kiến thức, thì một Editor càng đơn giản càng tốt, như Notepad, chính là cái bạn cần.
+
+
+= Tình năng =
+
+Dreamweaver cho phép người dùng xem trước trong các trình duyệt web được cài đặt tại địa phương. Nó cung cấp chuyển giao và đồng bộ hóa các tính năng, khả năng tìm và thay thế dòng văn bản hoặc mã bởi cụm từ tìm kiếm và các biểu thức trên toàn bộ trang web, và tính năng một khuôn mẫu cho phép đơn cập nhật của mã nguồn được chia sẻ và bố trí trên các trang web toàn bộ mà không cần máy chủ bên bao gồm hoặc kịch bản. Các bảng điều khiển hành vi cũng cho phép sử dụng JavaScript cơ bản mà không có bất kỳ kiến thức viết mã, và tích hợp với khuôn khổ của Adobe AJAX Spry cung cấp truy cập dễ dàng để tạo ra nội dung động và các giao diện.
+
+Dreamweaver có thể sử dụng bên thứ ba "mở rộng" để mở rộng chức năng cốt lõi của ứng dụng, mà bất kỳ nhà phát triển web có thể viết (chủ yếu trong HTML và JavaScript). Dreamweaver được hỗ trợ bởi một cộng đồng lớn của các nhà phát triển mở rộng những người làm phần mở rộng có sẵn (cả thương mại và miễn phí) cho các nhiệm vụ phát triển nhất từ hiệu ứng rollover web đơn giản để xe mua sắm đầy đủ tính năng.
+
+Dreamweaver, giống như các biên tập HTML, chỉnh sửa các tập tin tại địa phương sau đó upload chúng vào máy chủ web từ xa bằng cách sử dụng FTP, SFTP, hoặc WebDAV. Dreamweaver CS4 bây giờ hỗ trợ Subversion (SVN) hệ thống kiểm soát phiên bản.
