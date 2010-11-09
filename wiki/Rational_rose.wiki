@@ -1,0 +1,19 @@
+#summary Giới thiệu sơ lược về phần mềm rational rose.
+#labels Phase-Requirements
+
+= Giới thiệu =
+
+Rational Software là một công ty phát triển phần mềm độc lập cho đến năm 2003, khi được mua bởi IBM. Hầu hết các sản phẩm của công ty này liên quan đến việc mô hình hóa và trợ giúp phát triển phần mềm và duy trì các phần mềm đó.
+
+
+= UML và RUP =
+
+Năm 1994, Rational sáp nhập với Verdix, một công ty đại chúng đã tạo ra một mảng rộng của Ada trình biên dịch nhắm mục tiêu đến nhiều kiến trúc / hệ điều hành kết hợp. Các đơn vị kết quả được đặt tên là "Rational Software", và kịp thời tích hợp các môi trường Rational Ada, C với các máy phát điện mã và các thời gian chạy được phát triển bởi Verdix.
+
+Năm 1995, James Rumbaugh gia nhập công ty, và Rational có được Ivar Jacobson Objectory của công ty AB từ Ericsson. Với Grady Booch đã trên tàu, điều này mang lại trong một công ty ba trong methodologists phần mềm hướng đối tượng hàng đầu. Ba chuyên gia đã cố gắng để thống nhất công việc của họ. Để loại bỏ các phân mảnh phương pháp mà họ kết luận là cản trở thương mại thông qua các công cụ mô hình hóa, chúng phát triển Unified Modeling Language (UML), trong đó cung cấp một sân chơi bình đẳng cho tất cả các nhà cung cấp công cụ. Đó là nỗ lực hợp tác này mà kiếm được Rumbaugh, Jacobson và Booch biệt danh là "The Three Amigos" trong ngành công nghiệp công nghệ phần mềm. Ở phiên bản 1.0 của nó, các Unified Modeling Language đã góp phần vào việc quản lý đối tượng Group, trong đó có quản lý phát triển tiếp theo của nó.
+
+Philippe Kruchten, một techrep hợp lý, được giao nhiệm vụ lắp ráp của một khuôn khổ rõ ràng cho quá trình công nghệ phần mềm hiện đại. Đây là nỗ lực kết hợp các cơ chế quá trình cung cấp dựa trên HTML làm việc với cơ sở kinh nghiệm Objectory hợp lý của 15-năm làm việc với khách hàng phát triển hệ thống phần mềm quan trọng. Kết quả "Rational Unified Process (RUP) hoàn thành một chân chiến lược:
+
+    * Một quá trình tailorable rằng sự phát triển hướng dẫn
+    * Công cụ tự động áp dụng các quy trình
+    * Dịch vụ tăng tốc quá trình nhận con nuôi của cả hai và các công cụ.
