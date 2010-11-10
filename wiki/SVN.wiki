@@ -1,0 +1,100 @@
+#summary một số lệnh cơ bản trong svn command lines.
+
+= SVN một số lệnh cơ bản =
+
+1. Lệnh tạo thư mục mkdir
+
+- Ý nghĩa: Lệnh này sử dụng để tạo thư mục trong repository của bạn. (giống lệnh MD trong Doc command)
+
+- Cấu trúc lệnh:
+
+    svn mkdir <đường dẫn thư mục mới tạo> –m <Mô tả về dự án> ––username <username> ––password <password>
+
+Trong trường hợp bạn ko gõ tham số –m, chương trình sẽ hiển thị màn hình để các bạn nhập comment vào (chương trình này được thiết lập trong biến SVN_EDITOR ở bài trước)
+
+- Ví dụ:
+
++ Tạo dự án mới:
+
+    svn mkdir svn://localhost/as –m “Asia standard, a product of asiasoft” ––username admin ––password nimda
+
++ Tạo thư mục con của dự án mới tạo:
+
+    Tạo thư mục chứa Source của dự án
+
+    svn mkdir svn://localhost/as/Src –m “Source code store here” ––username admin ––password nimda
+
+    Tạo thư mục chứa tài liệu
+
+    svn mkdir svn://localhost/as/Docs –m “Documents of project store here” ––username admin ––password nimda
+
+    Tạo các thư mục con của thư mục chứa tài liệu
+
+    svn mkdir svn://localhost/as/Docs/TechDocs –m “Documents for Technical” ––username admin ––password nimda
+
+    svn mkdir svn://localhost/as/Docs/UserDocs –m “Documents for End-User” ––username admin ––password nimda
+
+2. Xóa thư mục delete (del, remove, rm)
+
+- Ý nghĩa: Xóa thư mục (cái này thì giống RD trong dos command)
+
+- Cấu trúc lệnh:
+
+    svn delete <đường dẫn tới thư mục cần xóa> ––username <username> ––password <password>
+
+    Có thể thay thế lệnh delete bằng del hoặc remove hoặc rm
+
+     
+
+- Ví dụ:
+
+    Xóa thư mục Docs
+
+    svn delete svn://localhost/as/docs ––username admin ––password nimda
+
+3. Lệnh List (ls)
+
+- Ý nghĩa: Dùng để liệt kê danh sách các thư mục và file bên trong thư mục đang được list (giống DIR trong Dos command)
+
+- Cấu trúc lệnh:
+
+    svn list <đường dẫn đến thư mục cần xem danh sách thư mục và file> ––username <username> ––password <password>
+
+- Ví dụ:
+
+    Trong ví dụ này, tôi đã thử dùng SVN để liệt kê các thư mục và file bên trong dự án của nhóm Quản lý xây dựng trên google code (tại thời điểm 14h41 ngày 05/11/2010) và nhận được kết quả như sau:
+
+    C:\svn-win32-1.5.6\bin>svn ls https://quanlyxaydung.googlecode.com/svn/trunk/code/
+
+    NhanVien/
+    congtrinh/
+    khachhang/
+    main/
+    quanlykho/
+    quanlyvattu/
+
+    Trong ví dụ trên, các bạn có thể thay lệnh list bằng lệnh ls
+
+     
+
+4. Lệnh checkout (co)
+
+- Ý nghĩa: Lệnh này sử dụng để lấy phiên bản mã nguồn mới nhất từ thư mục dự án trên repository về thư mục trên máy trạm.
+
+- Cấu trúc lệnh: 
+
+    svn checkout <đường dẫn thư mục trên máy chủ> <đường dẫn thư mục trên máy trạm> ––username <username> ––password  <password>
+
+    Các bạn có thể thay thế lệnh checkout ở trên bằng lệnh co.
+
+- Ví dụ:
+
+Trong ví dụ này, tôi sẽ lấy mã nguồn mới nhất từ thư mục Src của dự án AS đã tạo ở trên về thư mục D:/dev/as/src/ trên máy trạm.
+
+    svn checkout svn://localhost/as/src d:/dev/as/src ––username admin ––password nimda
+
+    Nếu thành công, chương trình sẽ có thông báo:
+
+    Checked out revision n. //(n là số phiên bản hiện tại mới nhất)
+
+Trong trường hợp thư mục d:/dev/as/src chưa có, SVN sẽ tự tạo.
