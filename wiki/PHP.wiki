@@ -1,0 +1,67 @@
+#summary Giới thiệu cơ bản về php.
+
+= Giới thiệu =
+
+PHP (viết tắt hồi quy "PHP: Hypertext Preprocessor") là một ngôn ngữ lập trình kịch bản hay một loại mã lệnh chủ yếu được dùng để phát triển các ứng dụng viết cho máy chủ, mã nguồn mở, dùng cho mục đích tổng quát. Nó rất thích hợp với web và có thể dễ dàng nhúng vào trang HTML. Do được tối ưu hóa cho các ứng dụng web, tốc độ nhanh, nhỏ gọn, cú pháp giống C và Java, dễ học và thời gian xây dựng sản phẩm tương đối ngắn hơn so với các ngôn ngữ khác nên PHP đã nhanh chóng trở thành một ngôn ngữ lập trình web phổ biến nhất thế giới.
+
+Đoạn mã sau minh họa giúp cách viết PHP lồng vào các trang HTML dễ dàng như thế nào:
+
+   1.
+
+       <html>
+
+   2.
+
+       	<head>
+
+   3.
+
+       		<title>Mã mẫu</title>
+
+   4.
+
+       	</head>
+
+   5.
+
+       	<body>
+
+   6.
+
+       	<?php
+
+   7.
+
+       	echo "Chào thế giới PHP!";
+
+   8.
+
+       	?>
+
+   9.
+
+       	</body>
+
+  10.
+
+       </html>
+
+Thẻ <?php và thẻ ?> sẽ đánh đấu sự bắt đầu và sự kết thúc của phần mã PHP qua đó máy chủ biết để xử lý và dịch mã cho đúng. Đây là một điểm khá tiện lợi của PHP giúp cho việc viết mã PHP trở nên khá trực quan và dễ dàng trong việc xây dựng phần giao diện ứng dụng HTTP.
+
+Ngôn ngữ, các thư viện, tài liệu gốc của PHP được xây dựng bởi cộng đồng và có sự đóng góp rất lớn của Zend Inc., công ty do các nhà phát triển cốt lõi của PHP lập nên nhằm tạo ra một môi trường chuyên nghiệp để đưa PHP phát triển ở quy mô doanh nghiệp.
+
+= Sự hưởng ứng PHP ở Việt Nam =
+
+Mặc dù đây PHP 5 được coi là đã sẵn sàng cho doanh nghiệp nhưng sự chấp nhận PHP vẫn tiến triển khá chậm chạp đặc biệt là ở Việt Nam. Nhưng những nỗ lực đầu tiên để phổ biến PHP trong đó có dự án xây dựng Quy tắc viết mã PHP tiếng Việt đã được xúc tiến. Ngày 24 tháng 10 năm 2004, nhóm PHPVietnam đã đề xuất xây dựng PHPVietnam Mailing List đầu tiên trên Google Groups tại địa chỉ: http://groups-beta.google.com/group/phpvietnam. Tại đây cũng đã diễn ra những thảo luận để xây dựng diễn đàn cho cộng đồng PHP Việt Nam.
+
+= Đóng góp của người Việt cho cộng đồng PHP thế giới =
+
+Người Việt chưa đóng góp được gì nhiều. Chủ yếu sự tham gia của người Việt là thông qua việc dịch các tập tin ngôn ngữ và dựa trên những ứng dụng PHP sẵn có với các sửa đổi để tạo nên các hệ thống thông tin thuần Việt như NukeViet của nhóm NukeViet.
+
+Đóng góp lớn nhất ghi nhận đến hiện nay là sự xuất hiện của PHP Designer 2006 do Michael Pham (quốc tịch Việt Nam và Đan Mạch) xây dựng. Địa chỉ: http://www.mpsoftware.dk/ hoặc http://www.mpsoftware.eu/
+
+Ngoài ra có nhiều mã nguồn mở viết bằng PHP được người Việt Nam sử dụng nhiều, chẳng hạn như mã nguồn Xtremedia là một hệ thống web giải trí được gọi tắt là "web nhạc", do tác giả Lê Thanh Minh Quân (biệt danh trên mạng là redphoenix89) viết và phát triển. Nó được ưa chuộng vì mã nguồn đơn giản, giao diện bắt mắt, tốc độ nhanh, dung lượng nhẹ (file nén của toàn source chỉ có 112kb - bản 1.1) và đặc biệt là hoàn toàn miễn phí. Nhưng kèm theo đó là rất nhiều lỗi chưa được sửa.
+
+Một số mã nguồn khác là SosoVN của tác giả Nguyễn Tôn Viễn, hay RCMS của Nguyễn Thanh Giang An đều là dạng CMS, tuy nhiên các CMS này chỉ phát hành bản thương mại và do đó ít được phát triển & sử dụng.
+
+Cộng đồng người Việt hiện nay cũng cho ra đời khá nhiều script miễn phí PHP để giúp phát triển PHP ở Việt Nam.
