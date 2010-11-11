@@ -1,0 +1,36 @@
+#summary Ngôn ngữ mô hình hóa thống nhất.
+
+= Giới thiếu =
+
+Ngôn ngữ mô hình hóa thống nhất (tiếng Anh: Unified Modeling Language, viết tắt thành UML) là một ngôn ngữ mô hình gồm các ký hiệu đồ họa mà các phương pháp hướng đối tượng sử dụng để thiết kế các hệ thống thông tin một cách nhanh chóng.
+
+Cách xây dựng các mô hình trong UML phù hợp mô tả các hệ thống thông tin cả về cấu trúc cũng như hoạt động. Cách tiếp cận theo mô hình của UML giúp ích rất nhiều cho những người thiết kế và thực hiện hệ thống thông tin cũng như những người sử dụng nó; tạo nên một cái nhìn bao quát và đầy đủ về hệ thống thông tin dự định xây dựng. Cách nhìn bao quát này giúp nắm bắt trọn vẹn các yêu cầu của người dùng; phục vụ từ giai đoạn phân tích đến việc thiết kế, thẩm định và kiểm tra sản phẩm ứng dụng công nghệ thông tin. Các mô hình hướng đối tượng được lập cũng là cơ sở cho việc ứng dụng các chương trình tự động sinh mã trong các ngôn ngữ lập trình hướng đối tượng, chẳng hạn như ngôn ngữ C++, Java, ... Phương pháp mô hình này rất hữu dụng trong lập trình hướng đối tượng. Các mô hình được sử dụng bao gồm Mô hình đối tượng (mô hình tĩnh) và Mô hình động.
+
+UML sử dụng một hệ thống ký hiệu thống nhất biểu diễn các Phần tử mô hình (model elements). Tập hợp các phần tử mô hình tạo thành các Sơ đồ UML (UML diagrams). Có các loại sơ đồ UML chủ yếu sau:
+
+    * Sơ đồ lớp (Class Diagram)
+    * Sơ đồ đối tượng (Object Diagram)
+    * Sơ đồ tình huống sử dụng (Use Cases Diagram)
+    * Sơ đồ trình tự (Sequence Diagram)
+    * Sơ đồ cộng tác (Collaboration Diagram hay là Composite Structure Diagram)
+    * Sơ đồ trạng thái (State Machine Diagram)
+    * Sơ đồ thành phần (Component Diagram)
+    * Sơ đồ hoạt động (Activity Diagram)
+    * Sơ đồ triển khai (Deployment Diagram)
+    * Sơ đồ gói (Package Diagram)
+    * Sơ đồ liên lạc (Communication Diagram)
+
+    * Sơ đồ tương tác (Interaction Overview Diagram - UML 2.0)
+    * Sơ đồ phối hợp thời gian (Timing Diagram - UML 2.0)
+
+UML ra đời do công của James Rumbaugh, Grady Booch và Ivar Jacobson sau khi đã có các cuộc chiến về mô hình bất phân thắng bại.
+
+ = Sơ đồ lớp =
+
+Trong các sơ đồ UML thì sơ đồ lớp được dùng một cách rộng rãi và phổ biến nhất. Sơ đồ lớp thể hiện mối quan hệ giữa các lớp trong một hệ thống thông tin.
+
+= Sơ đồ tình huống sử dụng =
+
+Sơ đồ tình huống sử dụng (tiếng Anh Use case diagram) mô tả sự tương tác đặc trưng giữa người dùng và hệ thống. Sơ đồ này thể hiện các ứng xử của hệ thống đối với bên ngoài, trong một hoàn cảnh nhất định, xét từ quan điểm của người sử dụng. Nó mô tả các yêu cầu đối với hệ thống, có nghĩa là những gì hệ thống phải làm chứ không phải mô tả hệ thống làm như thế nào. Tập hợp tất cả các sơ đồ tình huống sử dụng của hệ thống thể hiện tất cả các trường hợp mà hệ thống có thể được sử dụng.
+
+Một sơ đồ tình huống sử dụng có thể có những biến thể. Mỗi một biến thể được gọi là một kịch bản (scenario). Phạm vi của sơ đồ thường được giới hạn bởi các hoạt động mà người dùng thực hiện trên hệ thống trong một chu kì hoạt động để thực hiện một sự kiện nghiệp vụ.
