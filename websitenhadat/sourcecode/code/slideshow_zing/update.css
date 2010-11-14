@@ -1,0 +1,343 @@
+﻿.head02
+{
+    color: #999;
+    font-weight: normal;
+}
+.head02 a
+{
+    color: #003399;
+    font-size: 12px;
+    text-decoration: none;
+}
+.head02 a:hover
+{
+    text-decoration: underline;
+}
+.head02 a.tit
+{
+    color: #f47d21;
+    font-size: 14px;
+    font-weight: bold;
+}
+.mua123bl
+{
+    margin: 5px 16px 0 0;
+}
+.newsrelated a
+{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+.newsrelated a:hover
+{
+    text-decoration: underline;
+}
+.cont01im
+{
+    margin-right: 12px;
+}
+.cont01txt a
+{
+    font-weight: bold;
+}
+.list04 li
+{
+    font-size: 12px;
+}
+/*Nam Update*/
+
+#main{float: left; display: inline;text-align: left;}
+
+.submenu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0 0 0 10px;
+}
+
+.submenu li
+{
+    margin: 0px;
+    padding: 5px 5px;
+    float: left;
+}
+
+.submenu li a
+{
+    text-decoration: none;
+    color: #003399;
+}
+
+.submenu li a:hover
+{
+    text-decoration: underline;
+}
+
+.hide
+{
+    display: none;
+}
+
+.zlstmnav
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 29px;
+}
+.zlstmnav li
+{
+    display: inline;
+    height: 29px;
+}
+.zlstmnav li a
+{
+    float: left;
+    background: top left;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 0 0 4px;
+}
+.zlstmnav li a span
+{
+    float: left;
+    display: block;
+    background: top right;
+    padding: 0px 7px 0px 4px;
+}
+.zlstmnav li a.zlstitm span
+{
+    padding-left: 8px;
+    padding-right: 11px;
+}
+.zlstmnav li a:hover, .zlstmnav li.selected a
+{
+    background: url(/news/images/left_menu.gif) no-repeat top left;
+    text-decoration: none;
+    padding: 0 0 0 4px;
+}
+.zlstmnav li a:hover span, .zlstmnav li.selected span
+{
+    color: #003399;
+    background: url(/news/images/right_menu.gif) no-repeat top right;
+    line-height: 29px;
+    padding: 0px 7px 0px 4px;
+    cursor: pointer;
+}
+.cont01txt
+{
+    width: 116px;
+}
+.cont01im
+{
+    width: 84px;
+}
+.newsrelated li
+{
+    line-height: 15px;
+}
+/*-------------*/
+.zprods ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.zprods li
+{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    display: inline;
+    position: relative;
+}
+.zprods li a
+{
+    background: url(/news/images/bgd_vr01.gif) right no-repeat;
+    line-height: 19px;
+    padding: 0 5px;
+}
+.zprods ul ul
+{
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+    width: 100px;
+    list-style: none;
+    position: absolute;
+    top: 1.6em;
+    left: 0;
+    background: #ffffff;
+    display: none;
+}
+.zprods ul ul li
+{
+    float: none; /*For Gecko*/
+    display: block !important;
+    display: inline; /*For IE*/
+}
+.zprods ul ul li a
+{
+    background: none;
+}
+.zprods ul .show ul
+{
+    display: block;
+}
+/*Footer Menu--------------------------*/
+#fdmenu
+{
+    padding: 3px 0;
+    margin: 2px 0 4px 0;
+}
+.news_style
+{
+    display: none;
+}
+.buttondiv
+{
+    text-align:right;
+}
+.cont09 .website
+{
+    text-align:right;
+    font-weight:bold;
+    color:#999;
+}
+.videotit a
+{
+    color:#F47D21;
+}
+/*Nam Update - 03/11/2009*/
+.head123mua
+{
+	margin-top: 10px;
+	background: url(/news/images/123mua_bg_title.jpg) no-repeat;
+}
+.head123mua-title
+{
+	background: url(/news/images/123mua_icon_title.jpg) no-repeat 0px 8px;
+	height: 31px;
+	padding: 8px 0 0 0;
+}
+.head123mua-title .xemthem
+{
+	width: 100px;
+	float: right;
+	text-align: right;
+}
+.head123mua-title h2
+{
+	font-weight: bold;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0 0 0 20px;
+	color: #f47d21;
+}
+.head123line
+{
+	background: url(/news/images/123mua_bg_line_mid.jpg) repeat-x left bottom;
+	height: 22px;
+	width: 100%;
+	text-align: right;
+	display: block;
+	clear: both;
+}
+.head123bottom
+{
+	background: url(/news/images/123mua_bg_line_bottom.jpg) repeat-x;
+	height: 37px;
+	width: 100%;
+	margin-top: -20px;
+}
+.clr2 a
+{
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.shop123mua
+{
+	color: #003399;
+}
+
+.shop123mua a
+{
+	color: #003399;
+}
+
+.bloc04fix
+{
+    height: 0%;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+#onewsTicker
+{
+	height:100px;
+}
+#onewsTicker .canvas
+{
+	padding: 5px 0 0 0px;
+}
+#oTicker
+{
+	border:medium none;
+	float:left;
+	left:0px;
+	padding:0;
+	position:relative;
+	width:616px;
+}
+#oTicker .spcg
+{
+	width: 9000em;
+	float: left;
+	position: relative; /* width: 100%; */
+	margin: 0px;
+	left: -10px;
+	padding: 0px;
+	border: none;
+}
+#oTicker p
+{
+	float: left;
+	width: 150px;
+	margin: 0px 8px 0 0;
+	padding: 0px;
+	text-align: center;
+}
+#oTicker p img
+{
+	float: left;
+	border: 1px solid #999;
+}
+/*------------------------------------------------*/
+/*box123mua*/
+#mua123 { width:618px; margin-top: 10px;}
+#mua123 img { border:0;}
+#mua123 .top_mua123 { background:url(/news/images/123mua_bg_title.jpg) left top no-repeat; width:618px; height:39px; margin-bottom:10px;}
+#mua123 .top_mua123 .title { display:inline; float:left; background:url(/news/images/123mua_icon_title.jpg) 0px 12px no-repeat; color:#F47D21; font-size:12px; font-weight:bold; height:39px; line-height:39px; padding-left:20px;}
+#mua123 .top_mua123 .viewdetail { display:inline; float:right; width:auto; height:auto; padding-top:9px; padding-right:0px;}
+#mua123 .main_product { width:618px; overflow:hidden;}
+#mua123 .main_product ul { width:650px; margin:0; padding:0; list-style:none;}
+#mua123 .main_product ul li { float:left; width:300px; height:110px; margin-right:15px;}
+#mua123 .main_product ul li .product { width:300px;}
+#mua123 .main_product ul li p {margin: 0px;}
+#mua123 .main_product ul li .product .pic { float:left; width:140px; height:100px; border:1px solid #999999; text-align:center;}
+#mua123 .main_product ul li .product .desc { float:right; width:150px; color:#4a4a4a; font-size:12px;}
+#mua123 .main_product ul li .product .desc p.lstitle { padding-bottom:0px;padding:0px;}
+#mua123 .main_product ul li .product .desc p.lstitle a { color:#003399; font-size:12px; font-weight:bold; text-decoration:none;}
+#mua123 .main_product ul li .product .desc p.price { color:#ff0033; font-size:12px; font-weight:bold;padding: 0px;}
+#mua123 .main_product ul li .product .desc span.shop { color:#ff0033; font-size:12px;}
+#mua123 .other_product { width:618px; overflow:hidden;}
+#mua123 .other_product .top { background:url(/news/images/123mua_bg_line_mid.jpg) left bottom repeat-x; width:auto; height:37px; padding-left:589px;}
+#mua123 .other_product .top img { padding-top:24px;}
+#mua123 .other_product .other_product_inside { background:url(/news/images/123mua_bg_line_bottom.jpg) left bottom repeat-x; width:618px; height:145px; overflow:hidden;}
+#mua123 .other_product .other_product_inside ul { width:650px; margin-top:2px; padding:0; list-style:none;}
+#mua123 .other_product .other_product_inside ul li { float:left; width:142px; height:130px; margin-right:16px;}
+#mua123 .other_product .other_product_inside ul li .pic { width:140px; height:100px; text-align:center; border:1px solid #000;}
+#mua123 .other_product .other_product_inside ul li p.price { height:30px; line-height:30px; color:#4a4a4a; font-size:12px; text-align:center;}
+#mua123 .other_product .other_product_inside li.fix { margin-right:17px;}
