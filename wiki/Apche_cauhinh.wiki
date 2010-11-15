@@ -1,0 +1,119 @@
+#summary Hướng dẫn cấu hình apche.
+#labels cauhinhapche,apchevàdreamwear
+
+CẤU HÌNH APACHE CHẠY NHIỀU HOST
+Trong bài thực hành này các bạn lớp web công cụ nào chưa làm bài LAB này thử cấu hình Apache và Dreamweaver sao cho có thể cùng lúc chạy nhiều host để dễ dàng cho công việc thực hành. Ví dụ như bạn vừa làm Site cms vừa làm Site shopping thì làm sao có thể chuyển đổi qua lại giữa các Hosting này mà không cần phải cấu hình và Restart lại Apache.
+
+Bước 1: Tạo thư mục Local và Remote
+
++ Ví dụ cho Site 1 là shopping
+
+Trên ổ đĩa C: ta có 2 thư mục như sau:
+
+C:\ shop0810\shop0810 -> là thư mục Local
+C:\AppServ\www\shop0810 -> là thư mục Remote
+
++ Ví dụ cho Site 2 là xaydung
+
+Trên ổ C: ta có 2 thư mục như sau:
+
+C:\project57\project57 -> là thư mục Local
+C:\AppServ\www\project57 -> là thư mục Remote
+
+Bước 2: Cấu hình Apache chạy nhiều Host
+
++ Click nút Start -> Programs -> Appserv -> Configuration Server -> Apache Edit the httpd.conf Configuration File
+
+
+
++ Nhấn phím F3. Nhập vào từ documentroot và click nút Find Next 2 lần
+
+
+
++ Tại đường dẫn này bạn không được phép / thêm vào thư mục nào khác mà phải để mặc định như vậy. ta chấp nhận thư mục gốc của Webserver là www
+
+
+
++ Bạn hãy vào tiếp Menu Edit -> Find , nhập vào từ khóa cần tìm là # virtual hosts và click nút Find Next. Bạn sẽ nhảy đến được đoạn chứa từ khóa này.
+
+
+
++ Bây giờ chúng ta sẽ cấu hình như sau:
+
+# Virtual hosts
+NameVirtualHost *
+
+<VirtualHost *>
+DocumentRoot "C:/AppServ/www/project57"
+ServerName xaydung
+DirectoryIndex index.php
+</VirtualHost>
+
+<VirtualHost *>
+DocumentRoot "C:/AppServ/www/shop0810"
+ServerName shop0810
+DirectoryIndex index.php
+</VirtualHost>
+
++ Ở đây chúng ta tạo ra 2 Host : 1 host tên xaydung và một host tên shop0810 (sau này nếu chúng ta có domain thực thì chúng ta sẽ đổi tên host là lại sau).
++ Sau khi cấu hình xong hãy Stop và Start Apache lại.
+
+
+
+Bước 3: Cấu hình tập tin hosts trong windows
+
++ Hãy vào thư mục etc trong máy mở tập tin hosts lên bằng Notepad
+
+
+
++ Trong đây ta sẽ cấu hình như sau:
+
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+127.0.0.1 localhost
+127.0.0.1 shop0810
+127.0.0.1 xaydung
+
++ Trong này ta cũng tạo ra 2 host giống tên với host trong tập tin cấu hình của Apache
++ hãy Save tập tin này lại.
+
+
+
+Bước 4: Cấu hình Dreamweaver để chạy nhiều Host
+
++ Trong DW chúng ta sẽ cấu hình 2 Site với các thông số như sau:
+
+Site 1 shop cấu hình như sau:
+
+
+
+
+
+
++ Click nút OK
+
+Site 2 xaydung cấu hình như sau:
+
+
+
+
+
++ Click nút OK
++ Tới đây thì bạn thử trong mỗi Site tạo ra một trang index.php và thử Preview xem 2 Site này đã chạy được hay chưa.
++ Để chuyển đổi qua lại giữa các Site bạn chọn Site trong Panel File là được.
