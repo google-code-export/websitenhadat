@@ -1,0 +1,206 @@
+@charset "utf-8";
+.backmenu {
+	background-image: url(../layout/images/default_r9_c1.jpg);
+}
+.backlh {
+	background-image: url(../layout/images/default_r20_c1.jpg);
+	font-family: tahoma;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.backdownload {
+	background-image: url(../layout/images/default_r34_c1.jpg);
+	font-family: tahoma;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.backlogin {
+	background-image: url(../layout/images/default_r10_c19.jpg);
+}
+.backgiohang {
+	background-image: url(../layout/images/default_r21_c16.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.fontlogin {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.khunglogin {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #333333;
+	border: 1px solid #666666;
+}
+.fontxam {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #333333;
+}
+.fontred {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FF0000;
+}
+.bg2 {
+	background-image: url(../layout/00000001_r35_c10.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+}
+
+
+.khungxanh {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #004890;
+}
+.bg {
+	background-image: url(../layout/Index_Cut_r42_c10.jpg);
+	background-repeat: repeat-x;
+}
+
+.vienxanh3canh {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #034991;
+	border-bottom-color: #034991;
+	border-left-color: #034991;
+}
+
+.khunghinh {
+	margin: 5px;
+	padding: 2px;
+	border: 1px solid #000033;
+}
+.khoancach {
+	margin-top: 7px;
+	margin-left: 7px;
+}
+.khoancachtable {
+	margin-bottom: 5px;
+}
+
+
+.fontxanh {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #004890;
+}
+.backtieude {
+	font-family: tahoma;
+	font-size: 13px;
+	color: #FFFFFF;
+	background-image: url(../layout/images/default_r9_c9.jpg);
+}
+.fontredmedium {
+	font-family: tahoma;
+	font-size: 16px;
+	color: #FF0000;
+}
+.backbaner {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-image: url(../layout/images/default_r4_c5.jpg);
+}
+.khungfull {
+	border: 1px dotted #000099;
+}
+.fontden {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #000000;
+}
+.fonttrang15 {
+	font-family: tahoma;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.gachduoi {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+}
+.dongy {
+	background-repeat: no-repeat;
+	background-image: url(../layout/Index_Cut_r44_c11.jpg);
+	font-family: tahoma;
+	font-size: 13px;
+	color: #0033CC;
+}
+.khongdongy {
+	font-family: tahoma;
+	font-size: 13px;
+	color: #0033CC;
+	background-image: url(../layout/Index_Cut_r44_c11.jpg);
+}
+.bkxanhlot {
+	background-color: #FFFFFF;
+	background-image: url(../layout/4.jpg);
+	background-repeat: repeat-x;
+}
+.khungsearch {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #000000;
+	margin-top: 5px;
+	border: 1px solid #333333;
+}
+.khoancachbutton {
+	margin-top: 5px;
+}
+.linktrang A
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.linktrang A:visited
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.linktrang A:hover
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00FF00;
+	text-decoration: none;
+}
+
+.linkxanh A
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color:#0000CC;
+	text-decoration: none;
+}
+.linkxanh A:visited
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color:#0033CC;
+	text-decoration: none;
+}
+.linkxanh A:hover
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color:#FF6600;
+	text-decoration: none;
+}

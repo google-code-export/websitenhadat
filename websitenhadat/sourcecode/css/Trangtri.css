@@ -1,0 +1,114 @@
+@charset "utf-8";
+#admin {
+	background-color: #CCCCCC;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#admin #banner {
+	background-color: #00CC33;
+	height: 130px;
+	width: 980px;
+	text-align: center;
+	vertical-align: middle;
+}
+#admin #menu {
+	text-align: center;
+	vertical-align: middle;
+	height: 30px;
+	width: 980px;
+}
+#admin #footer {
+	background-color: #FF6699;
+	height: 80px;
+	width: 980px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 30px;
+}
+#admin #center {
+	background-color: #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	width: 980px;
+}
+
+.chu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF0000;
+}
+#thongketruycap {
+	width: 200px;
+}
+
+.chu1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.chu2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #FF0000;
+}
+
+.chu3 {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0033FF;
+}
+.chu4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.clear {
+	clear: both;
+}
+#wellcome_user {
+	width: 200px;
+}
+#lienhe {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: tahoma;
+	font-size: 14px;
+	color: #0066FF;
+}
+.chu1Copy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.chu4_gachchan {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: underline;
+}
+#thongke {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#thongkehopdong {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#timkiem_tieude {
+	width: 500px;
+}

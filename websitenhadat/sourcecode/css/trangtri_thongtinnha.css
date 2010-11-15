@@ -1,0 +1,14 @@
+@charset "utf-8";
+#hinh {
+	float: left;
+	width: 120px;
+}
+#hinh #thongtin {
+	float: right;
+	width: 200px;
+	text-align: left;
+	vertical-align: top;
+}
+#nhadat {
+	width: 320px;
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+.chu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0033FF;
+}
+
+#trai {
+	float: left;
+	width: 550px;
+}
+#phai {
+	float: right;
+	width: 220px;
+	margin-top: 5px;
+}
+#nha {
+	width: 520px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+#noidung #box #tieude {
+	height: 30px;
+	width: 260px;
+	font-family: tahoma;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: left;
+	vertical-align: middle;
+}
+#noidung #box #hinh {
+	float: left;
+	width: 100px;
+}
+#noidung #box #gioithieu {
+	float: right;
+	width: 150px;
+}
+
+#nha #left {
+	float: left;
+	width: 260px;
+}
+#noidung #box {
+	float: left;
+	width: 260px;
+}
+.clear {
+	clear: both;
+}
+#noidung {
+	width: 530px;
+	border: thin 1 #00FF66;
+}
+#xemhet {
+	line-height: 30px;
+	height: 30px;
+	width: 500px;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 30px;
+}
+
+#xemhetnha {
+	width: 530px;
+}
+#xemhetnha #xemhetnha_thongtin #xemhetnha_thongtin_tieude {
+	line-height: 30px;
+	vertical-align: middle;
+	height: 30px;
+	width: 520px;
+	padding-left: 10px;
+}
+#xemhetnha #xemhetnha_thongtin #xemhetnha_thongtin_noidung {
+	width: 530px;
+}
+
+#xemhetnha #xemhetnha_thongtin {
+	float: left;
+	width: 530px;
+	margin-bottom: 10px;
+}
+
+
+#ketquatimkiem_layout {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#ketquatimkiem_layout #ketquatimkiem_top {
+	font-family: tahoma;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FF0000;
+	vertical-align: middle;
+	height: 40px;
+	width: 500px;
+	text-align: center;
+}
+#ketquatimkiem_layout #ketquatimkiem_cen {
+	width: 500px;
+}
+#ketquatimkiem_layout #bot {
+	line-height: 26px;
+	height: 26px;
+	width: 470px;
+	text-align: right;
+	padding-right: 30px;
+}
+.chu_nhachothue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+#baocaoketqua {
+	width: 670px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#baocaoketqua #baocaoketqua_tieude {
+	font-family: tahoma;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FF0000;
+	text-align: center;
+	vertical-align: middle;
+	height: 40px;
+	width: 640px;
+	padding-left: 30px;
+}

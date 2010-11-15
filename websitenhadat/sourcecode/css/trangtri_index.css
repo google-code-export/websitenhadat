@@ -1,0 +1,21 @@
+@charset "utf-8";
+#index {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#clear {
+	clear: both;
+}
+
+
+#index #footer {
+	height: 109px;
+	width: 800px;
+	background-image: url(../images_gd/nen_footer.gif);
+	clear: both;
+}
+.can_top_table {
+	margin-top: 8px;
+}

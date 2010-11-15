@@ -1,0 +1,43 @@
+@charset "utf-8";
+.lienket a:link {
+	font-family: tahoma;
+	color: #0033FF;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+.lienket a:visited {
+	font-family: tahoma;
+	color: #0033FF;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+.lienket  a:hover {
+	font-family: tahoma;
+	color: #99FF00;
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: bold;
+}
+.lienket1 a:link {
+	font-family: tahoma;
+	color: #FF0000;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+.lienket1  a:visited {
+	font-family: tahoma;
+	color: #FF0000;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+.lienket1 a:hover {
+	font-family: tahoma;
+	color: #33FF00;
+	text-decoration: underline;
+	font-size: 13px;
+	font-weight: bold;
+}
