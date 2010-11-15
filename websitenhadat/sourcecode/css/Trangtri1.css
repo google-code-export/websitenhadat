@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+#index {
+	background-color: #FFFFFF;
+	width: 800px;
+	text-align: center;
+}
+#f_m  #banner1 {
+	height: 129px;
+	width: 542px;
+	padding-top: 12px;
+	padding-left: 13px;
+	float: left;
+}
+#f_m #banner #banner2 {
+	width: 235px;
+	float: right;
+	height: 29px;
+	padding-top: 12px;
+	padding-left: 5px;
+}
+#f_m #banner {
+	height: 141px;
+	width: 800px;
+	background-image: url(../images_gd/nen_banner.gif);
+}
+
+#f_m {
+	width: 800px;
+}
+#index #clear {
+	clear: both;
+}
+#f_m #menu {
+	background-image: url(../images_gd/nen_menu1.gif);
+	background-repeat: repeat-x;
+	height: 32px;
+	width: 800px;
+}
+#f_m #menu #menu_left {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FF0000;
+	height: 25px;
+	width: 250px;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+#index #banner_menu {
+	width: 800px;
+	clear: both;
+}
+#index #center #center_left {
+	background-color: #CCFF33;
+	float: left;
+	width: 533px;
+	padding-left: 7px;
+}
+#index #center {
+	clear: both;
+	width: 800px;
+}
+#f_m #menu #menu_right {
+}
+
+
+
+.username{
+    background-image:url(../images_gd/username.gif)
+	background-position: 1px 1px;
+	background-repeat:no-repeat;
+	padding-left:20px;
+	height:20px;
+	FONT-SIZE: 12px;
+	border: 1px solid #CCCCCC;
+	color: #000000;
+	font-family: Aria;
+	background-image: url(../images_gd/username.gif);
+	}
+.password{
+    background-image:url(../images_gd/password.gif)
+	background-position: 1px 1px;
+	background-repeat:no-repeat;
+	padding-left:20px;
+	height:20px;
+	FONT-SIZE: 12px;
+	border: 1px solid #CCCCCC;
+	color: #000000;
+	background-image: url(../images_gd/password.gif);
+	}
+#f_m #menu #menu_right {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FF0000;
+	height: 15px;
+	width: 470px;
+	padding-left: 30px;
+	float: right;
+}
+#trai #menu_trai {
+	background-image: url(../images_gd/nen_menuduoi.gif);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 480px;
+	padding-top: 10px;
+	margin-top: 8px;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+.lienket a:link {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.lienket a:visited {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+}
+.lienket a:hover {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #00FF33;
+	text-decoration: underline;
+}
+.chu_tieude {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #006600;
+}

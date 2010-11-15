@@ -1,0 +1,19 @@
+@charset "utf-8";
+.lienketxanh a:link {
+	font-family: tahoma;
+	color: #0033CC;
+	text-decoration: none;
+	font-size: 13px;
+}
+.lienketxanh  a:visited {
+	font-family: tahoma;
+	color: #0033CC;
+	text-decoration: none;
+	font-size: 13px;
+}
+.lienketxanh  a:hover {
+	font-family: tahoma;
+	color: #0033CC;
+	text-decoration: underline;
+	font-size: 13px;
+}
