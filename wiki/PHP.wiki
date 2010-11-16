@@ -1,4 +1,5 @@
 #summary Giới thiệu cơ bản về php.
+#labels php,Phase-Requirements
 
 = Giới thiệu =
 
