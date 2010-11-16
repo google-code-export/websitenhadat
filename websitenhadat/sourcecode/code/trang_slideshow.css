@@ -1,0 +1,45 @@
+@charset "utf-8";
+#slide_main {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#slide_main #slide_left {
+	float: left;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#slide_main #slide_right {
+	float: right;
+	width: 190px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.clear {
+	clear: both;
+}
+#slide_main #slide_right #show_tindoc {
+	width: 185px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+#slide_main #slide_left #hinh {
+	height: 210px;
+	width: 290px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#slide_main #slide_left #noidungtin #button {
+}
+#slide_main #slide_left #noidungtin #tieude {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0033FF;
+	text-align: left;
+}
+#slide_main #slide_left #noidungtin #trichdan {
+	text-align: left;
+}
