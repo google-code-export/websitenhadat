@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsnhan_vien1" value="name:TenNV;datatype:string,name:DiaChi;datatype:blob,name:Email_HoTro;datatype:string,name:DienThoai;datatype:string,name:GioiTinh;datatype:string,name:NgaySinh;datatype:datetime,name:Luong;datatype:string,name:ID_NV;datatype:int" />
+</info>

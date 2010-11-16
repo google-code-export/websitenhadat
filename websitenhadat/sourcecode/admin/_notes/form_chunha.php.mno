@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rschu_nha" value="name:ID_ChuNha;datatype:int,name:TenChuNha;datatype:int,name:DiaChi;datatype:int,name:DienThoai;datatype:int" />
+</info>

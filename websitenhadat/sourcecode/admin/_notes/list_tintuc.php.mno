@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rstin_tuc1" value="name:ID_TinTuc;datatype:int,name:TieuDe;datatype:string,name:TrichDanTin;datatype:blob,name:HinhMinhHoa;datatype:string,name:TacGia;datatype:string,name:TinHot;datatype:int,name:TinTieuDiem;datatype:int" />
+</info>
