@@ -1,0 +1,231 @@
+/* 
+  -----------------------------------
+  Tooltip Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 08
+  -----------------------------------
+*/
+
+.p7TTM08.p7TTMbox {
+	position: absolute;
+	overflow: hidden;
+}
+.p7TTM08 .p7TTMtop {
+	position: relative;
+}
+.p7TTM08 .p7TTMtiletop {
+	height: 20px;
+	margin: 0 20px;
+	background-repeat: repeat-x;
+	background-image: url(img/p7TTM08-top.png);
+}
+.p7TTM08 .p7TTMtopleft {
+	background-image: url(img/p7TTM08-topleft.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.p7TTM08 .p7TTMtopright {
+	height: 20px;
+	width: 20px;
+	background-image: url(img/p7TTM08-topright.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.p7TTM08 .p7TTMmiddlewrapper {
+	background-image: url(img/p7TTM08-right.png);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.p7TTM08 .p7TTMmiddle {
+	background-image: url(img/p7TTM08-left.png);
+	background-repeat: repeat-y;
+}
+.p7TTM08 .p7TTMbottom {
+	position: relative;
+}
+.p7TTM08 .p7TTMtilebottom {
+	background-image: url(img/p7TTM08-bottom.png);
+	background-repeat: repeat-x;
+	height: 20px;
+	margin: 0px 20px;
+}
+.p7TTM08 .p7TTMbottomleft {
+	background-image: url(img/p7TTM08-bottomleft.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	position: absolute;
+	top: 0px;
+	width: 20px;
+	bottom: 0px;
+	left: 0px;
+}
+.p7TTM08 .p7TTMbottomright {
+	background-image: url(img/p7TTM08-bottomright.png);
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+.p7TTM08 .p7TTMcontent {
+	overflow: hidden;
+}
+.p7TTM08 .p7TTMcnt {
+	position: relative;
+	color:#000;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 0px 20px;
+	background-image: url(img/p7TTM08-content.png);
+}
+.p7TTM08 .p7TTMcnt p {
+	margin: 6px 0 12px 0;
+}
+.p7TTM08 .p7TTMclose {
+	position: absolute;
+	top: -10px;
+	left: auto;
+	right: -8px;
+	display: none;
+}
+.p7TTM08 .p7TTMclose img {
+	border: 0;
+}
+.p7TTM08 .p7TTMclose a {
+	text-decoration: none;
+	display: block;
+	background-image: url(img/p7TTM08-close.png);
+	background-repeat: no-repeat;
+	height: 8px;
+	width: 8px;
+}
+.p7TTM08 .p7TTMclose i {
+	display: none;
+}
+
+
+/*ARROWS*/
+.p7TTM08 .p7TTMcall {
+	height: 9px;
+	width: 26px;
+	position: absolute;
+	z-index: 9;
+	background-repeat: no-repeat;
+	display: none;
+}
+/*Arrow At Bottom Left*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_1 {
+	height: 25px;
+	width: 30px;
+	left: 6px;
+	top: auto;
+	bottom: -25px;
+	background-image: url(img/p7TTM08-southwest.png);
+}
+/*Arrow At Bottom Middle*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_2 {
+	height: 30px;
+	width: 16px;
+	left: 50%;
+	margin-left: -8px;
+	top: auto;
+	bottom: -30px;
+	background-image: url(img/p7TTM08-south.png);
+}
+/*Arrow At Bottom Right*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_3 {
+	height: 25px;
+	width: 30px;
+	left: auto;
+	right: 6px;
+	top: auto;
+	bottom: -25px;
+	background-image: url(img/p7TTM08-southeast.png);
+}
+/*Arrow At Top Left*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_4 {
+	height: 25px;
+	width: 30px;
+	left: 6px;
+	top: -25px;
+	background-image: url(img/p7TTM08-northwest.png);
+}
+/*Arrow At Top Middle*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_5 {
+	height: 30px;
+	width: 16px;
+	left: 50%;
+	margin-left: -8px;
+	top: -30px;
+	background-image: url(img/p7TTM08-north.png);
+}
+/*Arrow At Top Right*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_6 {
+	height: 25px;
+	width: 30px;
+	left: auto;
+	right: 0px;
+	top: -25px;
+	background-image: url(img/p7TTM08-northeast.png);
+}
+/*Arrow At Left Top*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_7 {
+	height: 25px;
+	width: 28px;
+	left: -28px;
+	top: 8px;
+	background-image: url(img/p7TTM08-duewest.png);
+}
+/*Arrow At Left Middle*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_8 {
+	height: 16px;
+	width: 30px;
+	left: -30px;
+	top: 50%;
+	margin-top: -8px;
+	background-image: url(img/p7TTM08-west.png);
+}
+/*Arrow At Right Top*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_9 {
+	height: 25px;
+	width: 28px;
+	left: auto;
+	right: -28px;
+	top: 8px;
+	background-image: url(img/p7TTM08-dueeast.png);
+}
+/*Arrow At Right Middle*/
+.p7TTM08 .p7TTMcall.p7TTM_Arrow_10 {
+	height: 16px;
+	width: 30px;
+	left: auto;
+	right: -30px;
+	top: 50%;
+	margin-top: -8px;
+	background-image: url(img/p7TTM08-east.png);
+}
+/*Special Class assigned to All Triggers, regardless of the Tooltip Style Theme, while its tooltip is showing.*/
+.p7TTM_open {}
+
+/*Special Class assigned to All Triggers, regardless of the Tooltip Style Theme, when using the Basic Interface.*/
+.p7TTM_trg {
+	text-decoration: underline;
+	cursor: default;
+}
+/*Special Class you can use to assign to various trigger elements when using the class assignment method to define a tooltip.*/
+.tooltip {}
+
+/*IE 7 and 6 fixes*/
+.p7TTMtop, .p7TTMbottom,
+.p7TTMmiddlewrapper {zoom: 1;}

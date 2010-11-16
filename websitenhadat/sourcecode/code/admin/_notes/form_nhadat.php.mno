@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_chunha" value="name:ID_ChuNha;datatype:int,name:TenChuNha;datatype:string" />
+	<infoitem key="UD_Recordset5" value="name:TenChuNha;datatype:string,name:ID_ChuNha;datatype:int" />
+	<infoitem key="UD_Recordset4" value="name:TenQuan;datatype:string,name:ID_Quan;datatype:int" />
+	<infoitem key="UD_rs_quan" value="name:ID_Quan;datatype:int,name:TenQuan;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:TenLoaiNha;datatype:string,name:ID_LoaiNha;datatype:int" />
+	<infoitem key="UD_rs_loainha" value="name:ID_LoaiNha;datatype:int,name:TenLoaiNha;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:TenHuongNha;datatype:string,name:ID_HuongNha;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:TenNV;datatype:string,name:ID_NV;datatype:int" />
+	<infoitem key="UD_rsnha_dat" value="name:ID_NhaDat;datatype:int,name:TieuDe;datatype:int,name:Duong;datatype:int,name:SoPTam;datatype:int,name:SoPNgu;datatype:int,name:TienThue;datatype:int,name:DatCoc;datatype:int,name:DienTich;datatype:int,name:HinhAnh;datatype:int,name:MoTaChiTiet;datatype:int,name:ID_HuongNha;datatype:int,name:ID_NV;datatype:int,name:ID_LoaiNha;datatype:int,name:ID_Quan;datatype:int,name:ID_ChuNha;datatype:int" />
+	<infoitem key="UD_rs_nhanvien" value="name:ID_NV;datatype:int,name:TenNV;datatype:string" />
+	<infoitem key="UD_rs_huongnha" value="name:ID_HuongNha;datatype:int,name:TenHuongNha;datatype:string" />
+</info>

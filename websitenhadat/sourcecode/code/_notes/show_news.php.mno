@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_slide_nhadat" value="name:TieuDe;datatype:string,name:TienThue;datatype:int,name:DatCoc;datatype:int,name:DienTich;datatype:int,name:HinhAnh;datatype:string" />
+</info>

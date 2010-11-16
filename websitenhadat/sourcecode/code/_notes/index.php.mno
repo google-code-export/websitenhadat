@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_css_include" value="includes/skins/mxkollection3.css,css/trang_quangcao.css,css/h/.css,css/nhadat.css,css/Trangtri1.css,css/Trangtri.css,css/link.css,trang_slideshow.css,p7ttm/p7TTM08.css,p7ttm/p7TTM01.css,featured-content-slider/style.css,css/xq.css,css/linkxanh.css" />
+	<infoitem key="UD_rs_nhachothue" value="name:ID_NhaDat;datatype:int,name:TieuDe;datatype:string,name:Duong;datatype:string,name:SoPTam;datatype:int,name:SoPNgu;datatype:int,name:TienThue;datatype:int,name:DatCoc;datatype:int,name:DienTich;datatype:int,name:HinhAnh;datatype:string,name:MoTaChiTiet;datatype:blob,name:CapDoUuTien;datatype:int,name:ID_HuongNha;datatype:int,name:ID_LoaiNha;datatype:int,name:ID_Quan;datatype:int,name:ID_ChuNha;datatype:int,name:ID_NV;datatype:int,name:NhaMoi;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:ID_NhaDat;datatype:int,name:TieuDe;datatype:string,name:Duong;datatype:string,name:SoPTam;datatype:int,name:SoPNgu;datatype:int,name:TienThue;datatype:int,name:DatCoc;datatype:int,name:DienTich;datatype:int,name:HinhAnh;datatype:string,name:MoTaChiTiet;datatype:blob,name:CapDoUuTien;datatype:int,name:ID_HuongNha;datatype:int,name:ID_LoaiNha;datatype:int,name:ID_Quan;datatype:int,name:ID_ChuNha;datatype:int,name:ID_NV;datatype:int,name:NhaMoi;datatype:int" />
+</info>

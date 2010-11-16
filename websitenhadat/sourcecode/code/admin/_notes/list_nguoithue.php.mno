@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:TenLoaiNha;datatype:string,name:ID_LoaiNha;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:Ten_QueQuan;datatype:string,name:ID_QueQuan;datatype:int" />
+	<infoitem key="UD_Recordset3" value="name:Ten_NgheNghiep;datatype:string,name:ID_NgheNghiep;datatype:int" />
+	<infoitem key="UD_rsnguoi_thue1" value="name:TenNguoiThue;datatype:string,name:DiaChi;datatype:blob,name:DienThoai;datatype:string,name:KhanNangThue;datatype:blob,name:ID_LoaiNha;datatype:string,name:ID_QueQuan;datatype:string,name:ID_NgheNghiep;datatype:string,name:ID_NguoiThue;datatype:int" />
+</info>

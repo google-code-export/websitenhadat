@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_quangcao" value="name:ID_QuangCao;datatype:int,name:TieuDe;datatype:string,name:Hinh_QuangCao;datatype:string" />
+</info>

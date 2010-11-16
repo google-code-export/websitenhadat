@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsthanh_vien" value="name:TenThanhVien;datatype:int,name:UserName;datatype:int,name:PassWord;datatype:int,name:DiaChi;datatype:int,name:DienThoai;datatype:int,name:GioiTinh;datatype:int,name:Email;datatype:int,name:Avartar;datatype:int,name:NgayDangKy;datatype:int,name:ThongTinThem;datatype:int,name:ID_ThanhVien;datatype:int,name:AcessLevel;datatype:int" />
+</info>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_quan" value="name:ID_Quan;datatype:int,name:TenQuan;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:TenQuan;datatype:string,name:ID_Quan;datatype:int" />
+	<infoitem key="UD_Recordset2" value="name:TenLoaiNha;datatype:string,name:ID_LoaiNha;datatype:int" />
+</info>

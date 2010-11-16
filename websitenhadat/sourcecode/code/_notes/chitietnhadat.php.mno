@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rs_tintucchitiet" value="name:ID_NhaDat;datatype:int,name:TieuDe;datatype:string,name:Duong;datatype:string,name:SoPTam;datatype:int,name:SoPNgu;datatype:int,name:TienThue;datatype:string,name:DatCoc;datatype:int,name:DienTich;datatype:int,name:ID_HuongNha;datatype:int,name:HinhAnh;datatype:string,name:MoTaChiTiet;datatype:blob,name:ID_NV;datatype:int,name:ID_LoaiNha;datatype:int,name:ID_Quan;datatype:int,name:ID_ChuNha;datatype:int" />
+	<infoitem key="UD_rs_chitietnhadat" value="name:ID_NhaDat;datatype:int,name:TieuDe;datatype:string,name:Duong;datatype:string,name:SoPTam;datatype:int,name:SoPNgu;datatype:int,name:TienThue;datatype:int,name:DatCoc;datatype:int,name:DienTich;datatype:int,name:HinhAnh;datatype:string,name:MoTaChiTiet;datatype:blob,name:CapDoUuTien;datatype:int,name:ID_HuongNha;datatype:int,name:ID_LoaiNha;datatype:int,name:ID_Quan;datatype:int,name:ID_ChuNha;datatype:int,name:ID_NV;datatype:int,name:NhaMoi;datatype:int" />
+</info>
