@@ -1,4 +1,5 @@
 #summary một số lệnh cơ bản trong svn command lines.
+#labels SVN
 
 = SVN một số lệnh cơ bản =
 
