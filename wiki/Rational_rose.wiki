@@ -1,5 +1,5 @@
 #summary Giới thiệu sơ lược về phần mềm rational rose.
-#labels Phase-Requirements
+#labels RationalRose
 
 = Giới thiệu =
 
