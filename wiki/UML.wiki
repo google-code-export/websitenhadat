@@ -1,4 +1,5 @@
 #summary Ngôn ngữ mô hình hóa thống nhất.
+#labels Phase-Requirements,UML
 
 = Giới thiếu =
 
