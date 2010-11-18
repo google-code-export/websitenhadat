@@ -32,9 +32,8 @@ source
 You have now 2 choices.
 1. correct it yourself with the help given next to the error. Then press CTRL+R (refresh) to see if it is solved
 2. Or press on the clean up button that will correct the HTML for you.
-
 cleanup
-
+http://users.skynet.be/mgueury/mozilla/user_guide3.png
 That's it ! You can try the same with the SGML parser to be sure to have the same errors than the W3c.
 The differences between the 2 algorithms is explained below.
 2. Tidy vs SGML parser
@@ -73,7 +72,9 @@ The extension validates by default HTML pages returned by the Web server. But th
     * after some user interactions,
     * or Ajax events
 
-The extension 0.8x allows to validate a page in his current status after JavaScript execution. This option is available in the right menu of the validator icon in the status-bar 	javascript/ajax
+The extension 0.8x allows to validate a page in his current status after JavaScript execution. This option is available in the right menu of the validator icon in the status-bar 
+http://users.skynet.be/mgueury/mozilla/tidy80_javascript.png
+	javascript/ajax
 
 There are several technics to change a page with JavaScript: You can test yourself with the extension installed.
 
@@ -150,3 +151,8 @@ This icon appears only in Firefox 1.0.4 and after. But not in Mozilla or Firefox
 It seems that in such version, the validation result stored in the HTML frame is lost between the validation of frame itself and the validation of the parent page (that is always done after).
 
 This is a bug but since it is solved in Firefox 1.5 beta, I do not worry to much about it. In such case, you can anyway see the validation by going to the view source
+
+
+
+
+Chi tiết các bạn có thể xem ở đây : http://users.skynet.be/mgueury/mozilla/user_guide.html
