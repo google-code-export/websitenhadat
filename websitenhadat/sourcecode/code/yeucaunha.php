@@ -1,4 +1,4 @@
-<?php require_once('Connections/conn_qlnd.php'); ?>
+﻿<?php require_once('Connections/conn_qlnd.php'); ?>
 <?php
 // Load the common classes
 require_once('includes/common/KT_common.php');
@@ -124,7 +124,7 @@ $totalRows_rsnguoi_thue = mysql_num_rows($rsnguoi_thue);
 <script type="text/javascript" src="Editor/scripts/innovaeditor.js"></script>
 
 </head>
-
+<!--da fix loi hinh anh-->
 <body>
 <div align="center">
   <form method="post" id="form1" action="<?php echo KT_escapeAttribute(KT_getFullUri()); ?>">

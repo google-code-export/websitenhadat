@@ -1,4 +1,4 @@
-<?php require_once('Connections/conn_qlnd.php'); ?>
+﻿<?php require_once('Connections/conn_qlnd.php'); ?>
 <?php
 // Load the tNG classes
 require_once('includes/tng/tNG.inc.php');
@@ -53,7 +53,7 @@ $objDynamicThumb1->setWatermark(false);
 <link href="css/nhadat.css" rel="stylesheet" type="text/css" />
 <link href="css/link.css" rel="stylesheet" type="text/css" />
 </head>
-
+<!--da fix loi hinh anh-->
 <body>
     <div id="xemhetnha">
       <?php

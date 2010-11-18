@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // Require the MXI classes
 require_once ('includes/mxi/MXI.php');
 
@@ -35,6 +35,7 @@ $mxiObj->IncludeStatic("ketquatimkiem", "ketquatimkiem_layout.php", "", "", "");
 <meta name="description" content="<?php echo $mxiObj->getDescription(); ?>" />
 <base href="<?php echo mxi_getBaseURL(); ?>" />
 </head>
+<!--da fix loi hinh anh-->
 <body onLoad="goforit();" bgcolor="#CCCCCC" style=" margin:0">
 <!--banner and menu-->
    <table align="center" width="800" cellpadding="0" cellspacing="0" border="0">

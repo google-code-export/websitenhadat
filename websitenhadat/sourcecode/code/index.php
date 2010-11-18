@@ -1,4 +1,4 @@
-<?php require_once('Connections/conn_qlnd.php'); ?>
+﻿<?php require_once('Connections/conn_qlnd.php'); ?>
 <?php
 // Require the MXI classes
 require_once ('includes/mxi/MXI.php');
@@ -32,6 +32,7 @@ $conn_conn_qlnd = new KT_connection($conn_qlnd, $database_conn_qlnd);
 <script type="text/javascript" src="p7ttm/p7TTMscripts.js"></script>
 <link href="p7ttm/p7TTM01.css" rel="stylesheet" type="text/css" media="all" />
 </head>
+<!--da fix loi hinh anh-->
 <body onLoad="goforit();" bgcolor="#CCCCCC" style=" margin:0">
 <!--banner and menu-->
    <table align="center" width="800" cellpadding="0" cellspacing="0" border="0">
