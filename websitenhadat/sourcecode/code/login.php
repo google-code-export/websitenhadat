@@ -1,4 +1,4 @@
-<?php require_once('Connections/conn_qlnd.php'); ?>
+﻿<?php require_once('Connections/conn_qlnd.php'); ?>
 <?php
 // Load the common classes
 require_once('includes/common/KT_common.php');
@@ -80,6 +80,7 @@ $totalRows_rscustom = mysql_num_rows($rscustom);
 </head>
 
 <body style=" margin:0">
+<!--da fix loi login-->
 <div align="center">
 <form method="post" id="form1" class="KT_tngformerror" action="<?php echo KT_escapeAttribute(KT_getFullUri()); ?>">
     <table width="200" cellpadding="0" cellspacing="0" align="center" style="text-align:center">
