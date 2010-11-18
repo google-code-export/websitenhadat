@@ -1,0 +1,152 @@
+#summary Hướng dẫn test bằng HTML Validator.
+#labels HTMLValidator
+
+Đây là cách tìm lỗi của HTML Validator .
+Vì không có nhiều thời gian nên mình không dich ra . Các bạn xem chổ nào không hiều thì comment mình .
+
+1. How to use the HTML validator for Firefox
+2. Tidy vs SGML parser
+3. Validate now ( after JavaScript or AJAX execution )
+4. Icons
+1. How to use HTML validator for Firefox 
+We will validate a small HTML page with just an small HTML warning. (Test yourself)
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head></head>
+ <body>
+  sample
+ </body>
+</html>
+
+We will use Tidy as algorithm. If you want to use SGML, go to the options and choose algorithm: SGML Parser. (For more info, click here).
+
+If you look this page in the browser , you will see the warning icon in the bottom of the browser. 	warning
+
+If you double-click on the icon, or ask the page source, you will see the list of the errors in the HTML page source.
+
+http://users.skynet.be/mgueury/mozilla/user_guide2.png
+
+source
+ 
+You have now 2 choices.
+1. correct it yourself with the help given next to the error. Then press CTRL+R (refresh) to see if it is solved
+2. Or press on the clean up button that will correct the HTML for you.
+
+cleanup
+
+That's it ! You can try the same with the SGML parser to be sure to have the same errors than the W3c.
+The differences between the 2 algorithms is explained below.
+2. Tidy vs SGML parser
+W3c has made 2 programs to verify the HTML syntax. Both uses different algorithms:
+
+    * W3C Validator is based on SGML and the verification of the DTD of the page (defined in the DOCTYPE)
+    * HTML Tidy is called a 'linter', lexer. In short, it parses the page and try to understand the errors.
+
+This extension implements both algorithms without changes. Both technologies have their advantages and disadvantages.
+
+A. Tidy
+
+From my experience, Tidy has the following advantages:
+
+    *  Tidy shows more errors.
+      - Tidy shows errors about attributes values.
+      - Tidy reports useless empty tags
+    * Tidy has an accessibility checker of WAI level 1, 2, 3.
+    * Tidy has a feature to clean up a page. It is interesting to help people to find solutions for their errors.
+
+If you have questions about the tidy validation result, there is a user list and with archives: http://lists.w3.org/Archives/Public/html-tidy/
+
+B. OpenJade, the SGML Parser
+
+OpenJade, the SGML parser, has the following advantages:
+
+    * It is the same algorithm that the http://validator.w3.org 
+    * So, it gives the same errors than the W3c validator. This can be important if you want or need to have your pages W3c compliants.
+    * It is based on DTDs: a language that defines the HTML syntax. There are a lot of SGML DTDs for ex, several types or versions of HTML, SVG or MathML,  ...
+    * It gives better result for Strict HTML or XHTML validations. 
+
+3. Validate now ( after JavaScript or AJAX execution )
+The extension validates by default HTML pages returned by the Web server. But the HTML of the HTML pages can changes due to JavaScript code after :
+
+    * that the page has been loaded
+    * after some user interactions,
+    * or Ajax events
+
+The extension 0.8x allows to validate a page in his current status after JavaScript execution. This option is available in the right menu of the validator icon in the status-bar 	javascript/ajax
+
+There are several technics to change a page with JavaScript: You can test yourself with the extension installed.
+
+A. SAMPLE 1 : creation of a HTML element with DOM (Test yourself)
+ex:
+var doc = window.content.document;
+var body = doc.body;
+
+body.appendChild( doc.createElement("br") );
+
+B. SAMPLE 2 : creation of HTML with document.write (Test yourself)
+ex:
+doc.write( "<br>" );
+
+Here is a SAMPLE 3 (Test yourself) with a good HTML page given by the webserver but with JavaScript inserting, inside the HTML, a HTML error.
+4. Icons
+When using the HTML Validator extension, you will encounter some icons depending of the errors in the page. Here is the list of the icons andf their meaning.
+
+good 0 errors / 0 warnings
+
+This icon appears when Tidy has found no error and no warning during the validation of the page. Your page is good this is what we should all aim for.
+
+
+warning 0 errors / x warnings
+
+This icon appears when Tidy has found warnings: HTML errors that Tidy can correct using the cleanup. The error should be corrected and Tidy can propose you some change in you HTML code to fix it
+
+
+error x errors / x warnings
+
+This icon appears when Tidy has found errors: HTML errors that Tidy can not correct using the cleanup. So, you will need to correct these errors manually before Tidy can help you to correct the warnings.
+
+
+warning Disabled
+
+This icon appears when the validation is disabled for one reason below:
+- the extension is disabled completely in the browser.
+- or when the page is not an HTML page (ex: PDF)
+
+
+exludeNot in domain list
+
+This icon appears when the url is excluded from validation for one reason below:
+- when the protocol is about: (ex: about:blank)
+- or when the page is an URL defined in the exception list of URLs that should not be validated (in the Options...)
+- or for some advertisements in frames (when tidy.options.validate_ads=false)
+
+
+charset The HTML contains invalid character that can not be converted to Unicode
+
+This icon appears when the page contains some characters that are not defined in the character set used by the page. It appears typically in page declared as UTF8 but in reality stored in Latin1.
+
+Without being able to read all characters of the page, the extension is not able to validate the page. Such bad characters appears like <?> in the HTML of the page or in the Page Source.  Here is a screenshot of one of them:
+charset_screenshot
+
+charset Html Cache is Empty
+
+This icon appears when the HTML cache is empty. If the cache is empty, the extension is not able to get the HTML and without HTML, it is not possible to validate it ....
+
+This appears most of the time when the HTTP return code is not 200. (ex: HTTP-404). In such case, even if the browser return HTML, Firefox does not store it in his cache. And I am not able to validate it.
+
+Another way to have this icon is to disable the cache of Firefox in the about:config.
+
+
+hidden 0 errors / 0 warnings
+
+This icon appears when a page does not contains any errors or warnings after that a filter has been applied. And the filter hides some errors or warnings.
+
+
+question  No validation result
+
+This icon appears only in Firefox 1.0.4 and after. But not in Mozilla or Firefox 1.5 beta and always for a frame that has been validated as part of a page.
+
+It seems that in such version, the validation result stored in the HTML frame is lost between the validation of frame itself and the validation of the parent page (that is always done after).
+
+This is a bug but since it is solved in Firefox 1.5 beta, I do not worry to much about it. In such case, you can anyway see the validation by going to the view source
