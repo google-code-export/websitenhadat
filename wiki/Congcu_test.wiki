@@ -1,0 +1,44 @@
+#summary Giới thiệu công cụ test bằng HTMLValidator
+#labels Phase-Implementation,test,côngcụtest
+
+HTML Validator là một phần mở rộng Mozilla cho biết thêm rằng HTML xác nhận bên trong Firefox và Mozilla. Số lượng các lỗi của một trang HTML được biểu hiện theo hình thức một biểu tượng trên thanh trạng thái khi duyệt web.
+
+Nói tóm lại HTML Validator là 1 phần mở rộng dành cho firefox nhằm kiểm tra lỗi cú pháp của trang web theo chuẩn của W3.ORG
+
+Việc gia hạn có thể chứng thực HTML được gửi bởi máy chủ hoặc các HTML trong bộ nhớ (sau khi Ajax thực hiện).
+
+Các chi tiết về các lỗi được nhìn thấy khi tìm kiếm nguồn HTML của trang.
+
+Phần mở rộng này được dựa trên Tidy và OpenSP (SGML Parser). Cả hai thuật toán ban đầu được phát triển bởi W3C Web Consortium. Và bây giờ mở rộng và cải thiện rất nhiều người. Cả hai thuật toán được nhúng bên trong Mozilla / Firefox và làm cho việc xác thực cục bộ trên máy tính của bạn, mà không gửi HTML với một máy chủ bên thứ ba.
+
+Mỗi thuật toán có lợi thế và inconvenients. Chương trình sẽ cung cấp cho bạn sự lựa chọn lúc khởi động. Nhưng phần lớn,
+
+- Các phân tích cú pháp SGML là cùng một chương trình hơn so với chạy phía sau validator.w3.org.
+- Tidy đã kiểm tra khả năng truy cập cho 3 mức quy định tại WAI
+
+Phần mở rộng này được dịch trong 17 ngôn ngữ.
+
+Vì lý do kỹ thuật, mở rộng có sẵn trong trang web này chỉ cho:
+- Windows
+
+các nền tảng khác có sẵn ở đây:
+- Http://users.skynet.be/mgueury/mozilla/
+
+Tôi có ý định thêm các Linux 32 bit tại đây quá sớm.
+
+Danh sách đầy đủ các nền tảng là
+- Windows,
+- Linux 32 bit
+- Linux 64 bit
+- OpenBSD 32 bit
+- OpenBSD 64 bit
+- MacOSX UBND tỉnh
+- MacOSX Intel
+
+Các phiên bản cũ của Firefox 2 cũng có sẵn cho
+- Linux PPC
+
+Để biết thêm thông tin, hoặc các nền tảng khác, xem: http://users.skynet.be/mgueury/mozilla/
+
+Hoặc các diễn đàn:
+http://www.htmlpedia.org/phpBB/
