@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<info>
-	<infoitem key="UD_rs_baocao" value="name:ID_HopDong;datatype:int,name:TimeBD;datatype:datetime,name:TimeKT;datatype:datetime,name:NgayKy;datatype:datetime,name:ID_NhaDat;datatype:int,name:TieuDe;datatype:string,name:TienThue;datatype:int,name:DatCoc;datatype:int,name:ID_NguoiThue;datatype:int,name:TenNguoiThue;datatype:string,name:DiaChi;datatype:blob,name:DienThoai;datatype:string,name:DienTich;datatype:int" />
-</info>
